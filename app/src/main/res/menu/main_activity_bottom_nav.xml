@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
     <item
-        android:id="@+id/bottomNavSignIn"
-        android:title="Sign In"
-        android:icon="@drawable/ic_signin"/>
+        android:id="@+id/bottomNavHome"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
     <item
-        android:id="@+id/bottomNavSignUp"
-        android:title="Sign Up"
-        android:icon="@drawable/ic_signup"/>
+        android:id="@+id/bottomNavCamera"
+        android:title="Locate"
+        android:icon="@drawable/ic_camera"/>
+    <item
+        android:id="@+id/bottomNavNotifications"
+        android:title="Notifications"
+        android:icon="@drawable/ic_notification"/>
+    <item
+        android:id="@+id/bottomNavProfile"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile"/>
 </menu>
